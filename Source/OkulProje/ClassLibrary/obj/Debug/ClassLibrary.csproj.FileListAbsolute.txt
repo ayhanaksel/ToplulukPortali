@@ -38,3 +38,13 @@ C:\Users\AKSEL\Desktop\Projem\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.xm
 C:\Users\AKSEL\Desktop\Projem\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\AKSEL\Desktop\Projem\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.pdb
 C:\Users\AKSEL\Desktop\Projem\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.dll
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\MySql.Data.dll
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.pdb
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.xml
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.pdb
