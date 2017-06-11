@@ -128,6 +128,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Readme\Ext.NET\Sample.Web.config" />
+    <Content Include="SaloonList.aspx" />
     <Content Include="WorkerList.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -135,7 +136,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="SaloonList.aspx" />
     <Content Include="SpeakerList.aspx" />
     <Content Include="SpeakerPhoto\1.png" />
     <Content Include="SpeakerPhoto\18766778_10211873444604055_531059856540350517_o.jpg" />

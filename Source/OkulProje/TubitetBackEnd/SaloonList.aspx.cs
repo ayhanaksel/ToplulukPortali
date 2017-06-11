@@ -1,4 +1,4 @@
-﻿using ClassLibrary;
+﻿using ClassLibrary.Models;
 using Ext.Net;
 using System;
 using System.Collections.Generic;
@@ -69,9 +69,9 @@ namespace TubitetBackEnd
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
         {
-            List<Saloon> salons = new Saloon().getSaloons(txtFilter.Text);
+            List<Saloon> saloons = new Saloon().getSaloons(txtFilter.Text);
             Store store = grdList.GetStore();
-            store.DataSource = salons;
+            store.DataSource = saloons;
             store.DataBind();
         }
 

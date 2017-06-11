@@ -6,7 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace ClassLibrary
+namespace ClassLibrary.Models
 {
     public class Saloon
     {
