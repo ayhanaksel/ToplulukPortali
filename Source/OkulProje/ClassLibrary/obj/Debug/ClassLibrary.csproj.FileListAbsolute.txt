@@ -48,3 +48,13 @@ C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrar
 C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\Ufuk UNAL\Documents\GitHub\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.dll.config
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.dll
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\MySql.Data.dll
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.pdb
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.xml
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.pdb

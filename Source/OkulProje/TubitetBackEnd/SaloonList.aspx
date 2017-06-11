@@ -35,9 +35,9 @@
                         <ext:Model runat="server">
                             <Fields>
                                 <ext:ModelField Name="ID" Type="Int"></ext:ModelField>
-                                <ext:ModelField Name="SalonName" Type="String"></ext:ModelField>
-                                <ext:ModelField Name="SalonQuata" Type="Int"></ext:ModelField>
-                                <ext:ModelField Name="SalonAddress" Type="String"></ext:ModelField>
+                                <ext:ModelField Name="SaloonName" Type="String"></ext:ModelField>
+                                <ext:ModelField Name="SaloonQuata" Type="Int"></ext:ModelField>
+                                <ext:ModelField Name="SaloonAddress" Type="String"></ext:ModelField>
                                 <ext:ModelField Name="IsDeleted" Type="Boolean"></ext:ModelField>
                             </Fields>
                         </ext:Model>
