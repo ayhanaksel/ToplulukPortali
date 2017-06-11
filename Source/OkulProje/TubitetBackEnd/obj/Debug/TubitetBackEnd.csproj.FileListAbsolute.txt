@@ -1,0 +1,196 @@
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\ApplicationInsights.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\csc.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\vbc.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.dll.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Ext.Net.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Ext.Net.Utilities.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Web.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Newtonsoft.Json.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Transformer.NET.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\WebActivatorEx.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Ext.Net.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Ext.Net.Utilities.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Web.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Newtonsoft.Json.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\Transformer.NET.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.csprojResolveAssemblyReference.cache
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\ClassLibrary.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\FluentMigrator.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\MySql.Data.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\ClassLibrary.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\FluentMigrator.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetBackEnd\bin\FluentMigrator.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ApplicationInsights.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\csc.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\vbc.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.dll.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ClassLibrary.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.Utilities.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Web.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Newtonsoft.Json.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Transformer.NET.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\WebActivatorEx.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\MySql.Data.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ClassLibrary.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.Utilities.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Web.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Newtonsoft.Json.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Transformer.NET.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ApplicationInsights.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\csc.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\vbc.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.dll.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\TubitetBackEnd.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ClassLibrary.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.Utilities.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Web.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Newtonsoft.Json.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Transformer.NET.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\WebActivatorEx.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\MySql.Data.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\ClassLibrary.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Ext.Net.Utilities.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.Web.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Newtonsoft.Json.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\Transformer.NET.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\bin\FluentMigrator.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetBackEnd\obj\Debug\TubitetBackEnd.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\ApplicationInsights.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\csc.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\vbc.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.dll.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\TubitetBackEnd.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\ClassLibrary.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Ext.Net.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Ext.Net.Utilities.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Web.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Newtonsoft.Json.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Transformer.NET.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\WebActivatorEx.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\MySql.Data.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\FluentMigrator.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\ClassLibrary.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Ext.Net.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Ext.Net.Utilities.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.Web.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Newtonsoft.Json.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\Transformer.NET.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\FluentMigrator.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\bin\FluentMigrator.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.csprojResolveAssemblyReference.cache
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetBackEnd\obj\Debug\TubitetBackEnd.pdb

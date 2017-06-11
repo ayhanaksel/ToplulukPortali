@@ -1,0 +1,240 @@
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\ApplicationInsights.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\csc.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\vbc.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.dll.config
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\ClassLibrary.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Helpers.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Http.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Mvc.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Razor.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\FluentMigrator.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\MySql.Data.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\ClassLibrary.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Razor.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Helpers.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Mvc.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Http.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\FluentMigrator.pdb
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\bin\FluentMigrator.xml
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.dll
+C:\Users\Ufuk UNAL\documents\visual studio 2015\Projects\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ApplicationInsights.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\csc.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\vbc.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.dll.config
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ClassLibrary.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Helpers.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Mvc.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Razor.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\MySql.Data.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ClassLibrary.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Razor.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Helpers.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Mvc.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.pdb
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.xml
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.dll
+C:\Users\Onur\Downloads\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ApplicationInsights.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\csc.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\vbc.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.dll.config
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\TubitetWebAPI.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ClassLibrary.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Helpers.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Mvc.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Razor.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\MySql.Data.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\ClassLibrary.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Razor.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Helpers.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Mvc.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.pdb
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\bin\FluentMigrator.xml
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.dll
+C:\Users\Onur\Desktop\OkulProje-master\OkulProje-master\TubitetWebAPI\obj\Debug\TubitetWebAPI.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\ApplicationInsights.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\csc.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\vbc.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.dll.config
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\TubitetWebAPI.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\ClassLibrary.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Web.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Newtonsoft.Json.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Helpers.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Http.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Mvc.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Razor.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\MySql.Data.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\FluentMigrator.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\ClassLibrary.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.Web.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Razor.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Helpers.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Mvc.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\Newtonsoft.Json.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Http.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\FluentMigrator.pdb
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\bin\FluentMigrator.xml
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.dll
+C:\Users\AKSEL\Desktop\Projem\OkulProje\TubitetWebAPI\obj\Debug\TubitetWebAPI.pdb
