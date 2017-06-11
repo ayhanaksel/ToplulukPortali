@@ -128,7 +128,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Readme\Ext.NET\Sample.Web.config" />
+<<<<<<< HEAD
     <Content Include="SaloonList.aspx" />
+=======
+    <Content Include="webBackEnd.aspx" />
+>>>>>>> 6bb217fe02e060fcca10ed0bbdf23400108e5c71
     <Content Include="WorkerList.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -229,6 +233,13 @@
     </Compile>
     <Compile Include="UserTitleList.aspx.designer.cs">
       <DependentUpon>UserTitleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webBackEnd.aspx.cs">
+      <DependentUpon>webBackEnd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webBackEnd.aspx.designer.cs">
+      <DependentUpon>webBackEnd.aspx</DependentUpon>
     </Compile>
     <Compile Include="WorkerList.aspx.cs">
       <DependentUpon>WorkerList.aspx</DependentUpon>

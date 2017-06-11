@@ -59,7 +59,7 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserInterest.cs" />
     <Compile Include="Models\UserTitle.cs" />
-    <Compile Include="Models\webBackEnd.cs" />
+    <Compile Include="Models\webBackEndModal.cs" />
     <Compile Include="Models\Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Saloon.cs" />
