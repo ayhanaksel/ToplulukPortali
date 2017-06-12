@@ -55,6 +55,6 @@ C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrat
 C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\MySql.Data.dll
 C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.pdb
 C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\bin\Debug\FluentMigrator.xml
-C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Git_Root\ToplulukPortali\Source\OkulProje\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache

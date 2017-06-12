@@ -129,7 +129,6 @@
     </Content>
     <Content Include="App_Readme\Ext.NET\Sample.Web.config" />
     <Content Include="webBackEnd.aspx" />
-    <Content Include="WorkerList.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -237,13 +236,6 @@
     </Compile>
     <Compile Include="webBackEnd.aspx.designer.cs">
       <DependentUpon>webBackEnd.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WorkerList.aspx.cs">
-      <DependentUpon>WorkerList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WorkerList.aspx.designer.cs">
-      <DependentUpon>WorkerList.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

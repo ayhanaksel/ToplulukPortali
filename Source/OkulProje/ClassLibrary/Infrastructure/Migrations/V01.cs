@@ -24,11 +24,11 @@ namespace ClassLibrary.Infrastructure.Migrations
 
             Create.Table("User")
             .WithColumn("ID").AsInt32().PrimaryKey().Identity()
-            .WithColumn("UserPassword").AsString(128).NotNullable()
+            .WithColumn("UserNo").AsInt32().NotNullable()
             .WithColumn("UserName").AsString(256).NotNullable()
             .WithColumn("UserSurname").AsString(256).NotNullable()
+            .WithColumn("UserPassword").AsString(128).NotNullable()
             .WithColumn("UserMail").AsString(256).NotNullable()
-            .WithColumn("UserNo").AsInt32().NotNullable()
             .WithColumn("UserAddress").AsString(256).NotNullable()
             .WithColumn("UserState").AsByte().NotNullable().WithDefaultValue(0)
             .WithColumn("ActivationCode").AsInt32().NotNullable()
