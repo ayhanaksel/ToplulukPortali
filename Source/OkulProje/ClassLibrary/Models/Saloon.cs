@@ -6,7 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace ClassLibrary
+namespace ClassLibrary.Models
 {
     public class Saloon
     {
@@ -29,7 +29,7 @@ namespace ClassLibrary
             }
             else
             {
-                DAL.insertSql("update Speakers set SaloonName = @SaloonName, SaloonQuata=@SaloonQuota, SaloonAddress=@SaloonAddress where ID = @ID",
+                DAL.insertSql("update Saloon set SaloonName = @SaloonName, SaloonQuota=@SaloonQuata, SaloonAddress=@SaloonAddress where ID = @ID",
                    new List<MySqlParameter>()
                    {
                        new MySqlParameter("@SaloonName",this.SaloonName),

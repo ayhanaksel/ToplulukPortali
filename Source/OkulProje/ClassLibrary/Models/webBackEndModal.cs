@@ -17,7 +17,7 @@ namespace ClassLibrary.Models
 
         public int save()
         {
-            DAL.insertSql("update WebBackEnd set " + this.key + " = @value where id = 0", new List<MySqlParameter>()
+            DAL.insertSql("update WebBackEnd set " + this.key + " = @value where id = 1", new List<MySqlParameter>()
             {
                 //new MySqlParameter("@key",this.key),
                 new MySqlParameter("@value",this.value)
@@ -28,7 +28,7 @@ namespace ClassLibrary.Models
 
         public void getValue()
         {
-            DataTable data = DAL.readData("select @key from WebBackEnd where ID = 0", new MySqlParameter("@key", this.key));
+            DataTable data = DAL.readData("select @key from WebBackEnd where ID = 1", new MySqlParameter("@key", this.key));
             this.value = data.Rows[0][this.key].ToString();
         }
 

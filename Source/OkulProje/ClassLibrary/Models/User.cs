@@ -22,8 +22,9 @@ namespace ClassLibrary.Models
         public string UserAdress { get; set; }
         public string Password { get; set; }
         public int UserState { get; set; }
-        public string UserQR { get; set; }
         public string ActivationCode { get; set; }
+        public string UserPhoto { get; set; }
+        public string UserIdentifyCopy { get; set; }
         public Boolean IsDeleted { get; set; }
         public List<UserInterest> UserInterests { get; set; }
 
@@ -49,7 +50,7 @@ namespace ClassLibrary.Models
                         string ActivationCode = rd.Next(10000, 99999).ToString();
 
 
-                        this.ID = DAL.insertSql("insert into User(FacultyID,UserTitleID,UserName,UserSurName,Email,UserNo,UserAdress,Password,UserState,UserQR,ActivationCode) values(@FacultyID,@UserTitleID,@UserName,@UserSurName,@Email,@UserNo,@UserAdress,@Password,@UserState,@UserQR,@ActivationCode)", new List<MySqlParameter>() {
+                        this.ID = DAL.insertSql("insert into User(FacultyID,UserTitleID,UserName,UserSurName,Email,UserNo,UserAdress,Password,UserState,ActivationCode,UserPhoto,UserIdentifyCopy) values(@FacultyID,@UserTitleID,@UserName,@UserSurName,@Email,@UserNo,@UserAdress,@Password,@UserState,@ActivationCode,@UserPhoto,@UserIdentifyCopy)", new List<MySqlParameter>() {
 
                         new MySqlParameter("@FacultyID",this.Faculty.ID),
                         new MySqlParameter("@UserTitleID",this.UserTitle.ID),
@@ -60,8 +61,9 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserAdress",this.UserAdress),
                         new MySqlParameter("@Password",this.Password),
                         new MySqlParameter("@UserState",this.UserState),
-                        new MySqlParameter("@UserQR",this.UserQR),
-                        new MySqlParameter("@ActivationCode",ActivationCode)
+                        new MySqlParameter("@ActivationCode",ActivationCode),
+                        new MySqlParameter("@UserPhoto",this.UserPhoto),
+                        new MySqlParameter("@UserIdentifyCopy",this.UserIdentifyCopy)
                          });
 
                         string kontrol = sendMail(ActivationCode);
@@ -81,7 +83,7 @@ namespace ClassLibrary.Models
             }
             else
             {
-                DAL.insertSql("update User set FacultyID = @FacultyName,UserTitleID = @UserTitleID,UserName = @UserName,UserSurName = @UserSurName,Email = @Email, UserNo = @UserNo,UserAdress = @UserAdress, Password = @Password,UserState = @UserState,UserQR = @UserQR , ActivationCode = @ActivationCode where ID = @ID",
+                DAL.insertSql("update User set FacultyID = @FacultyName,UserTitleID = @UserTitleID,UserName = @UserName,UserSurName = @UserSurName,Email = @Email, UserNo = @UserNo,UserAdress = @UserAdress, Password = @Password,UserState = @UserState, ActivationCode = @ActivationCode , UserPhoto = @UserPhoto , UserIdentifyCopy = @UserIdentifyCopy where ID = @ID",
                     new List<MySqlParameter>()
                     {
                         new MySqlParameter("@FacultyID",this.Faculty.ID),
@@ -93,8 +95,9 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserAdress",this.UserAdress),
                         new MySqlParameter("@Password",this.Password),
                         new MySqlParameter("@UserState",this.UserState),
-                        new MySqlParameter("@UserQR",this.UserQR),
-                        new MySqlParameter("@ActivationCode",this.ActivationCode)
+                        new MySqlParameter("@ActivationCode",this.ActivationCode),
+                        new MySqlParameter("@UserPhoto",this.UserPhoto),
+                        new MySqlParameter("@UserIdentifyCopy",this.UserIdentifyCopy)
                     });
 
             }
@@ -163,7 +166,8 @@ namespace ClassLibrary.Models
                 this.UserAdress = data.Rows[0]["UserAdress"].ToString();
                 this.Password = data.Rows[0]["Password"].ToString();
                 this.UserState =Convert.ToInt32(data.Rows[0]["UserState"]);
-                this.UserQR = data.Rows[0]["UserQR"].ToString();
+                this.UserPhoto = data.Rows[0]["UserPhoto"].ToString();
+                this.UserIdentifyCopy = data.Rows[0]["UserIdentifyCopy"].ToString();
 
                 return this;
 

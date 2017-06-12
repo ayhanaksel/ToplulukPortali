@@ -1,4 +1,4 @@
-﻿using ClassLibrary;
+﻿using ClassLibrary.Models;
 using Ext.Net;
 using System;
 using System.Collections.Generic;
