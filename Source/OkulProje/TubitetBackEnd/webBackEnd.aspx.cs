@@ -22,11 +22,11 @@ namespace TubitetBackEnd
             webSection.Show();
             webBackEndModal web = new webBackEndModal()
             {
-                key = "aboutMe"
+                key = "AboutMe"
             };
             web.getValue();
             txtText.Text = web.value;
-            hdnSection.SetValue("aboutMe");
+            hdnSection.SetValue("AboutMe");
         }
 
         protected void btnVision_DirectClick(object sender, Ext.Net.DirectEventArgs e)
@@ -35,11 +35,11 @@ namespace TubitetBackEnd
             webSection.Show();
             webBackEndModal web = new webBackEndModal()
             {
-                key = "vision"
+                key = "Vision"
             };
             web.getValue();
             txtText.Text = web.value;
-            hdnSection.SetValue("vision");
+            hdnSection.SetValue("Vision");
         }
 
         protected void btnMission_DirectClick(object sender, Ext.Net.DirectEventArgs e)
@@ -48,11 +48,11 @@ namespace TubitetBackEnd
             webSection.Show();
             webBackEndModal web = new webBackEndModal()
             {
-                key = "mission"
+                key = "Mission"
             };
             web.getValue();
             txtText.Text = web.value;
-            hdnSection.SetValue("mission");
+            hdnSection.SetValue("Mission");
         }
 
         protected void btnContact_DirectClick(object sender, Ext.Net.DirectEventArgs e)
@@ -61,11 +61,11 @@ namespace TubitetBackEnd
             webSection.Show();
             webBackEndModal web = new webBackEndModal()
             {
-                key = "contact"
+                key = "Contact"
             };
             web.getValue();
             txtText.Text = web.value;
-            hdnSection.SetValue("contact");
+            hdnSection.SetValue("COntact");
         }
 
         protected void btnChange_DirectClick(object sender, Ext.Net.DirectEventArgs e)
