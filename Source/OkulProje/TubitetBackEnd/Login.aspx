@@ -59,5 +59,14 @@
         </Buttons>
     </ext:Window>
 
+    <ext:Window runat="server" ID="wndYetkisiz" Title="UYARI" Modal="true" Hidden="true" width="350" Height="150" Icon="Error">
+        <Items>           
+            <ext:Label runat="server" ID="Label1" Text="Giriş için yetkiniz yok !" Padding="10"></ext:Label>
+        </Items>
+        <Buttons>
+            <ext:Button runat="server" ID="Button1" Text="Kapat" Icon="Cancel" OnDirectClick="Button1_DirectClick"></ext:Button>
+        </Buttons>
+    </ext:Window>
+
 </body>
 </html>

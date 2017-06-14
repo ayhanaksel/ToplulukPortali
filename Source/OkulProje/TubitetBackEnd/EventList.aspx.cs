@@ -11,6 +11,14 @@ namespace TubitetBackEnd
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Cookies["kullanici"] == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+        }
+
+        protected void btnNewEvent_DirectClick(object sender, Ext.Net.DirectEventArgs e)
+        {
 
         }
     }

@@ -27,8 +27,26 @@ namespace TubitetBackEnd
             user.LoginControl();
             if(user.ID != 0)
             {
-                //Server.Transfer("Index.aspx");
-                Response.Redirect("Index.aspx");
+                
+                if(user.UserTitle.ID != 1)
+                {
+                    wndYetkisiz.Show();
+                }
+                else
+                {
+
+                    HttpCookie userCookie = new HttpCookie("kullanici");
+
+                    userCookie["ad"] = user.UserName;
+                    userCookie["soyad"] = user.UserSurName;
+                    userCookie.Expires = DateTime.Now.AddDays(1);
+                    Response.Cookies.Add(userCookie);
+
+                    X.Msg.Alert("Uyarı", userCookie["ad"] + userCookie["soyad"]).Show();
+
+                    //Server.Transfer("Index.aspx");
+                    Response.Redirect("Index.aspx");
+                }
             }
             else
             {
@@ -43,6 +61,11 @@ namespace TubitetBackEnd
         protected void btnClose_DirectClick(object sender, DirectEventArgs e)
         {
             wndHata.Close();
+        }
+
+        protected void Button1_DirectClick(object sender, DirectEventArgs e)
+        {
+            wndYetkisiz.Close();
         }
     }
 }
