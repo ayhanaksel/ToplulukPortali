@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ClassLibrary.Models
 {
-    public class EventType
+    public class ActivityType
     {
         public int ID { get; set; }
         public string TypeName { get; set; }
@@ -37,10 +37,10 @@ namespace ClassLibrary.Models
             DAL.insertSql("update ActivityType set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
-        public List<EventType> getActivities(string filter)
+        public List<ActivityType> getActivities(string filter)
         {
 
-            List<EventType> result = new List<EventType>();
+            List<ActivityType> result = new List<ActivityType>();
 
             DataTable data = DAL.readData("select * from ActivityType where IsDeleted=0 and TypeName Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -48,7 +48,7 @@ namespace ClassLibrary.Models
             {
 
                 result.Add(
-                    new EventType()
+                    new ActivityType()
                     {
                         ID = Convert.ToInt32(dr["ID"]),
                         TypeName = dr["TypeName"].ToString()

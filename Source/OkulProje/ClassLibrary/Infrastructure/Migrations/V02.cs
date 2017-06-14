@@ -11,6 +11,8 @@ namespace ClassLibrary.Infrastructure.Migrations
     {        
             public override void Down()
             {
+                Delete.Table("ActivityWorkers");
+                Delete.Table("ActivitySpeakers");
                 Delete.Table("Activities");
                 Delete.Table("Speakers");
                 Delete.Table("Workers");
@@ -53,6 +55,18 @@ namespace ClassLibrary.Infrastructure.Migrations
                     .WithColumn("SpeakerID").AsInt32().ForeignKey("Speakers", "ID")
                     .WithColumn("WorkersID").AsInt32().ForeignKey("Workers", "ID")
                     .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
-            }
+
+                Create.Table("ActivitySpeakers")
+                    .WithColumn("ID").AsInt32().PrimaryKey().Identity()
+                    .WithColumn("ActivityID").AsInt32().ForeignKey("Activities", "ID")
+                    .WithColumn("SpeakerID").AsInt32().ForeignKey("Speakers", "ID")
+                    .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
+
+                Create.Table("ActivityWorkers")
+                    .WithColumn("ID").AsInt32().PrimaryKey().Identity()
+                    .WithColumn("ActivityID").AsInt32().ForeignKey("Activities", "ID")
+                    .WithColumn("WorkerID").AsInt32().ForeignKey("Workers", "ID")
+                    .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
         }
     }
+}

@@ -51,8 +51,10 @@
     <Compile Include="Infrastructure\DAL.cs" />
     <Compile Include="Infrastructure\Migrations\V01.cs" />
     <Compile Include="Infrastructure\Migrations\V02.cs" />
-    <Compile Include="Models\Event.cs" />
-    <Compile Include="Models\EventType.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\ActivitySpeakers.cs" />
+    <Compile Include="Models\ActivityType.cs" />
+    <Compile Include="Models\ActivityWorkers.cs" />
     <Compile Include="Models\Faculty.cs" />
     <Compile Include="Models\Interest.cs" />
     <Compile Include="Models\Speaker.cs" />

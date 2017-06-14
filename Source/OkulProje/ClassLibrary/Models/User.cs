@@ -16,7 +16,8 @@ namespace ClassLibrary.Models
         public Faculty Faculty { get; set; }
         public UserTitle UserTitle { get; set; }
         public string UserName { get; set; }
-        public string UserSurName { get; set; }
+        public int IsVoted { get; set; }
+        public string UserSurname { get; set; }
         public string Email { get; set; }
         public string UserNo { get; set; }
         public string UserAdress { get; set; }
@@ -50,12 +51,12 @@ namespace ClassLibrary.Models
                         string ActivationCode = rd.Next(10000, 99999).ToString();
 
 
-                        this.ID = DAL.insertSql("insert into User(FacultyID,UserTitleID,UserName,UserSurName,Email,UserNo,UserAdress,Password,UserState,ActivationCode,UserPhoto,UserIdentifyCopy) values(@FacultyID,@UserTitleID,@UserName,@UserSurName,@Email,@UserNo,@UserAdress,@Password,@UserState,@ActivationCode,@UserPhoto,@UserIdentifyCopy)", new List<MySqlParameter>() {
+                        this.ID = DAL.insertSql("insert into User(FacultyID,UserTitleID,IsVoted,Username,UserSurname,Email,UserNo,UserAdress,Password,UserState,ActivationCode,UserPhoto,UserIdentifyCopy) values(@FacultyID,@UserTitleID,@IsVoted,@UserName,@UserSurname,@Email,@UserNo,@UserAdress,@Password,@UserState,@ActivationCode,@UserPhoto,@UserIdentifyCopy)", new List<MySqlParameter>() {
 
                         new MySqlParameter("@FacultyID",this.Faculty.ID),
                         new MySqlParameter("@UserTitleID",this.UserTitle.ID),
                         new MySqlParameter("@UserName",this.UserName),
-                        new MySqlParameter("@UserSurName",this.UserSurName),
+                        new MySqlParameter("@UserSurname",this.UserSurname),
                         new MySqlParameter("@Email",this.Email),
                         new MySqlParameter("@UserNo",this.UserNo),
                         new MySqlParameter("@UserAdress",this.UserAdress),
@@ -63,6 +64,7 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserState",this.UserState),
                         new MySqlParameter("@ActivationCode",ActivationCode),
                         new MySqlParameter("@UserPhoto",this.UserPhoto),
+                        new MySqlParameter("@IsVoted",this.IsVoted),
                         new MySqlParameter("@UserIdentifyCopy",this.UserIdentifyCopy)
                          });
 
@@ -83,13 +85,13 @@ namespace ClassLibrary.Models
             }
             else
             {
-                DAL.insertSql("update User set FacultyID = @FacultyName,UserTitleID = @UserTitleID,UserName = @UserName,UserSurName = @UserSurName,Email = @Email, UserNo = @UserNo,UserAdress = @UserAdress, Password = @Password,UserState = @UserState, ActivationCode = @ActivationCode , UserPhoto = @UserPhoto , UserIdentifyCopy = @UserIdentifyCopy where ID = @ID",
+                DAL.insertSql("update User set FacultyID = @FacultyName,UserTitleID = @UserTitleID,UserName = @UserName,IsVoted = @IsVoted,UserSurname = @UserSurname,Email = @Email, UserNo = @UserNo,UserAdress = @UserAdress, Password = @Password,UserState = @UserState, ActivationCode = @ActivationCode , UserPhoto = @UserPhoto , UserIdentifyCopy = @UserIdentifyCopy where ID = @ID",
                     new List<MySqlParameter>()
                     {
                         new MySqlParameter("@FacultyID",this.Faculty.ID),
                         new MySqlParameter("@UserTitleID",this.UserTitle.ID),
                         new MySqlParameter("@UserName",this.UserName),
-                        new MySqlParameter("@UserSurName",this.UserSurName),
+                        new MySqlParameter("@UserSurname",this.UserSurname),
                         new MySqlParameter("@Email",this.Email),
                         new MySqlParameter("@UserNo",this.UserNo),
                         new MySqlParameter("@UserAdress",this.UserAdress),
@@ -97,6 +99,7 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserState",this.UserState),
                         new MySqlParameter("@ActivationCode",this.ActivationCode),
                         new MySqlParameter("@UserPhoto",this.UserPhoto),
+                        new MySqlParameter("@IsVoted",this.IsVoted),
                         new MySqlParameter("@UserIdentifyCopy",this.UserIdentifyCopy)
                     });
 
@@ -144,7 +147,7 @@ namespace ClassLibrary.Models
             {
 
                 this.UserName = data.Rows[0]["UserName"].ToString();
-                this.UserSurName = data.Rows[0]["UserSurName"].ToString();
+                this.UserSurname = data.Rows[0]["UserSurname"].ToString();
                 this.ID = Convert.ToInt32(data.Rows[0]["ID"]);
 
                 this.Faculty.ID = Convert.ToInt32(data.Rows[0]["FacultyID"]);
@@ -167,6 +170,7 @@ namespace ClassLibrary.Models
                 this.Password = data.Rows[0]["Password"].ToString();
                 this.UserState =Convert.ToInt32(data.Rows[0]["UserState"]);
                 this.UserPhoto = data.Rows[0]["UserPhoto"].ToString();
+                this.IsVoted = Convert.ToInt32(data.Rows[0]["IsVoted"].ToString());
                 this.UserIdentifyCopy = data.Rows[0]["UserIdentifyCopy"].ToString();
 
                 return this;

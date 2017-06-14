@@ -26,10 +26,11 @@ namespace ClassLibrary.Infrastructure.Migrations
             .WithColumn("ID").AsInt32().PrimaryKey().Identity()
             .WithColumn("UserNo").AsInt32().NotNullable()
             .WithColumn("UserName").AsString(256).NotNullable()
+            .WithColumn("IsVoted").AsInt32().NotNullable()
             .WithColumn("UserSurname").AsString(256).NotNullable()
-            .WithColumn("UserPassword").AsString(128).NotNullable()
-            .WithColumn("UserMail").AsString(256).NotNullable()
-            .WithColumn("UserAddress").AsString(256).NotNullable()
+            .WithColumn("Password").AsString(128).NotNullable()
+            .WithColumn("Email").AsString(256).NotNullable()
+            .WithColumn("UserAdress").AsString(256).NotNullable()
             .WithColumn("UserState").AsByte().NotNullable().WithDefaultValue(0)
             .WithColumn("ActivationCode").AsInt32().NotNullable()
             .WithColumn("UserPhoto").AsString(256).NotNullable()
@@ -57,9 +58,9 @@ namespace ClassLibrary.Infrastructure.Migrations
             .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
 
             Create.Table("SaloonFeature")
-            .WithColumn("ID").AsInt32().PrimaryKey().Identity()
-            .WithColumn("FeatureName").AsString(128).NotNullable()
-            .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
+           .WithColumn("ID").AsInt32().PrimaryKey().Identity()
+           .WithColumn("FeatureName").AsString(128).NotNullable()
+           .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
 
             Create.Table("Feature")
             .WithColumn("ID").AsInt32().PrimaryKey().Identity()

@@ -29,7 +29,7 @@ namespace TubitetBackEnd
 
             }
 
-            EventType f = new EventType()
+            ActivityType f = new ActivityType()
             {
                 ID = ID,
                 TypeName = txtEventTypeName.Text
@@ -69,7 +69,7 @@ namespace TubitetBackEnd
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
         {
-            List<EventType> activities = new EventType().getActivities(txtFilter.Text);
+            List<ActivityType> activities = new ActivityType().getActivities(txtFilter.Text);
             Store store = grdList.GetStore();
             store.DataSource = activities;
             store.DataBind();
@@ -94,7 +94,7 @@ namespace TubitetBackEnd
 
         private void Update(int id)
         {
-            EventType f = new EventType() { ID = id };
+            ActivityType f = new ActivityType() { ID = id };
             f.getActivity();
 
             hdnID.SetValue(f.ID);
@@ -106,7 +106,7 @@ namespace TubitetBackEnd
         private void Delete(int id)
         {
 
-            EventType f = new EventType() { ID = id };
+            ActivityType f = new ActivityType() { ID = id };
             f.Delete();
             btnList_DirectClick(null, null);
 

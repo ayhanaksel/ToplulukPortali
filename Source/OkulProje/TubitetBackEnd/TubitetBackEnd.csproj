@@ -118,7 +118,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EventList.aspx" />
     <Content Include="EventTypeList.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="InterestList.aspx" />
@@ -163,13 +162,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventList.aspx.cs">
-      <DependentUpon>EventList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EventList.aspx.designer.cs">
-      <DependentUpon>EventList.aspx</DependentUpon>
-    </Compile>
     <Compile Include="EventTypeList.aspx.cs">
       <DependentUpon>EventTypeList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

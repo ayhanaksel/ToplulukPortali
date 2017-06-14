@@ -3,16 +3,14 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
 
 namespace ClassLibrary.Models
 {
-    public class Event
+    public class Activity
     {
         public int ID { get; set; }
         public string ActivityName { get; set; }
-        public EventType ActivityType { get; set; }
+        public ActivityType ActivityType { get; set; }
         public DateTime ActivityDate { get; set; }
         public Saloon SaloonID { get; set; }
         public int GuessLimit { get; set; }
@@ -60,10 +58,10 @@ namespace ClassLibrary.Models
             DAL.insertSql("update Activities set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
-        public List<Event> getActivities(string filter)
+        public List<Activity> getActivities(string filter)
         {
 
-            List<Event> result = new List<Event>();
+            List<Activity> result = new List<Activity>();
 
             DataTable data = DAL.readData("select * from Activities where IsDeleted=0 and ActivityName Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -71,11 +69,11 @@ namespace ClassLibrary.Models
             {
 
                 result.Add(
-                    new Event()
+                    new Activity()
                     {
                         ID = Convert.ToInt32(dr["ID"]),
                         ActivityName = dr["ActivityName"].ToString(),
-                        ActivityType = new EventType() { ID = Convert.ToInt32(dr["ActivityType"].ToString()) },
+                        ActivityType = new ActivityType() { ID = Convert.ToInt32(dr["ActivityType"].ToString()) },
                         ActivityDate = Convert.ToDateTime(dr["ActivityDate"].ToString()),
                         SaloonID = new Saloon() { ID = Convert.ToInt32(dr["SaloonID"].ToString()) },
                         GuessLimit = Convert.ToInt32(dr["ActivityName"].ToString()),
@@ -88,7 +86,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getWorker()
+        public void getActivity()
         {
             DataTable data = DAL.readData("select * from Activities where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.ActivityName = data.Rows[0]["ActivityName"].ToString();
