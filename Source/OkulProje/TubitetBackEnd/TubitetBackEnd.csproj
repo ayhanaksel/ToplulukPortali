@@ -118,6 +118,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Content Include="Content\logo.png" />
+    <Content Include="EventList.aspx" />
+>>>>>>> 9e4c50c2230688643e5460f06ddc9506516a2a3d
     <Content Include="EventTypeList.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="InterestList.aspx" />

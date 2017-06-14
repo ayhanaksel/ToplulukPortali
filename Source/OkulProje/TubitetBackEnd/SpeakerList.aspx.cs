@@ -13,7 +13,20 @@ namespace TubitetBackEnd
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            if (Request.Cookies["kullanici"] == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                Interest interest = new Interest();
+                store.DataSource = interest.getInterests("");
+                store.DataBind();
+            }
+>>>>>>> 9e4c50c2230688643e5460f06ddc9506516a2a3d
         }
         protected void btnPhotoSave_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
