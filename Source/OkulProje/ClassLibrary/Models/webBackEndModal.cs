@@ -26,9 +26,15 @@ namespace ClassLibrary.Models
             return this.id;
         }
 
+        // misyon için = Mission
+        // vizyon için = Vision
+        // iletişim bilgileri için = Contact
+        // hakkımda için  = AboutMe 
+        // parametre olarak gönderilecek
+
         public void getValue()
         {
-            DataTable data = DAL.readData("select @key from WebBackEnd where ID = 1", new MySqlParameter("@key", this.key));
+            DataTable data = DAL.readData("select * from WebBackEnd where ID = 1", new MySqlParameter("@key", this.key));
             this.value = data.Rows[0][this.key].ToString();
         }
 

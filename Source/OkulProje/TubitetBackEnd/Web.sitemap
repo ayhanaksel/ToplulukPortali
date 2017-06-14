@@ -7,6 +7,7 @@
     <siteMapNode title="İlgi Alanları Yönetimi" description="İlgi Alanları Yönetimi" url="InterestList.aspx/"></siteMapNode>
     <siteMapNode title="Ünvan Yönetimi" description="Ünvan Yönetimi" url="UserTitleList.aspx/"></siteMapNode>
     <siteMapNode title="Konuşmacı Yönetimi" description="Konuşmacı Yönetimi" url="SpeakerList.aspx/"></siteMapNode>
+    <siteMapNode title="Web Sitesi Yönetimi" description="Web Sitesi Yönetimi" url="webBackEnd.aspx/"></siteMapNode>
  
   </siteMapNode>
 </siteMap>
