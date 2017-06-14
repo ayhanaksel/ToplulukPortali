@@ -13,9 +13,7 @@ namespace TubitetBackEnd
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Interest interest = new Interest();
-            store.DataSource = interest.getInterests("");
-            store.DataBind();
+            
         }
         protected void btnPhotoSave_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {

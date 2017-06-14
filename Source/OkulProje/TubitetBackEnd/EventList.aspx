@@ -56,9 +56,9 @@
                     <ext:Column runat="server" Text="Etkinlik Tarihi" DataIndex="ActivityDate" Flex="1"></ext:Column>
                     <ext:Column runat="server" Text="Etkinlik Yeri" DataIndex="SaloonID" Flex="1"></ext:Column>
                     <ext:Column runat="server" Text="Katılımcı Sayısı" DataIndex="GuessLimit" Flex="1"></ext:Column>
-                    <ext:Column runat="server" Text="Konuşmacı" DataIndex="GuessLimit" Flex="1"></ext:Column>
-                    <ext:Column runat="server" Text="Görevli" DataIndex="GuessLimit" Flex="1"></ext:Column>
-                    <ext:Column runat="server" Text="Afiş" DataIndex="GuessLimit" Flex="1"></ext:Column>
+                    <ext:Column runat="server" Text="Konuşmacı" DataIndex="SpeakersID" Flex="1"></ext:Column>
+                    <ext:Column runat="server" Text="Görevli" DataIndex="WorkersID" Flex="1"></ext:Column>
+                    <ext:Column runat="server" Text="Afiş" DataIndex="ActivityPhoto" Flex="1"></ext:Column>
                     <ext:CommandColumn runat="server" Width="160" ID="grdCommands">
                         <Commands>
                             <ext:GridCommand Icon="ApplicationEdit" Text="Güncelle" CommandName="cmdUpdate"></ext:GridCommand>
