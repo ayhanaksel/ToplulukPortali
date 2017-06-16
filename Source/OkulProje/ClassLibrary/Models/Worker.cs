@@ -13,7 +13,7 @@ namespace ClassLibrary.Models
         public string WorkerMission { get; set; }
         public Boolean IsDeleted { get; set; }
 
-        public int save()
+        public int save()                                               //Yeni görevli eklemek için kullanılan kodlar.
         {
             if (this.ID == 0)
             {
@@ -24,7 +24,7 @@ namespace ClassLibrary.Models
                          });
             }
             else
-            {
+            {                                                                                   //Var olan görevliyi güncelleme kodları.
                 DAL.insertSql("update Worker set UserID = @UserID,WorkerMission = @WorkerMission where ID = @ID",
                      new List<MySqlParameter>()
                      {
@@ -35,7 +35,7 @@ namespace ClassLibrary.Models
             return this.ID;
         }
 
-        public void Delete()
+        public void Delete()                                                //Var olan görevliyi silmemizi sağlayan kodlar.
         {
             DAL.insertSql("update Worker set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
@@ -43,7 +43,7 @@ namespace ClassLibrary.Models
         public List<Worker> getWorkers(string filter)
         {
 
-            List<Worker> result = new List<Worker>();
+            List<Worker> result = new List<Worker>();                                           //Görevlileri listelememizi sağlayan kodlar.
 
             DataTable data = DAL.readData("select * from Worker where IsDeleted=0 and UserID Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -62,7 +62,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getWorker()
+        public void getWorker()                                             //Tek bir görevliyi listelememizi sağlayan kodlar.
         {
             DataTable data = DAL.readData("select * from Worker where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.UserID.ID = Convert.ToInt32(data.Rows[0]["UserID"].ToString());

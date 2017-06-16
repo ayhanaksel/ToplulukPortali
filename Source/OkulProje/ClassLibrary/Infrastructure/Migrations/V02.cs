@@ -47,13 +47,11 @@ namespace ClassLibrary.Infrastructure.Migrations
                 Create.Table("Activities")
                     .WithColumn("ID").AsInt32().Identity().PrimaryKey()
                     .WithColumn("ActivityName").AsString(150).NotNullable()
-                    .WithColumn("ActivityType").AsInt32().ForeignKey("ActivityType", "ID")
+                    .WithColumn("ActivityType").AsString().NotNullable()
                     .WithColumn("ActivityPhoto").AsString(256).NotNullable()
-                    .WithColumn("SaloonID").AsInt32().ForeignKey("Saloon", "ID")
+                    .WithColumn("Saloon").AsString(256).NotNullable()
                     .WithColumn("ActivityDate").AsDateTime().NotNullable()
                     .WithColumn("GuessLimit").AsInt32().NotNullable()
-                    .WithColumn("SpeakerID").AsInt32().ForeignKey("Speakers", "ID")
-                    .WithColumn("WorkersID").AsInt32().ForeignKey("Workers", "ID")
                     .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(false);
 
                 Create.Table("ActivitySpeakers")

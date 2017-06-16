@@ -21,7 +21,7 @@ namespace TubitetBackEnd
         {           
             if (Request.Cookies["kullanici"] != null)
             {
-                HttpCookie musteriCookie = Request.Cookies["kullanici"];
+                HttpCookie musteriCookie = Request.Cookies["kullanici"];                            //Kullanıcı çıkış yaptığında çalışan kodlar.
                 musteriCookie.Expires = DateTime.Now.AddDays(-1);
                 Response.Cookies.Add(musteriCookie);
                 Response.Redirect("Login.aspx");

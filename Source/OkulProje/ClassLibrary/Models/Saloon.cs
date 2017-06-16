@@ -19,7 +19,7 @@ namespace ClassLibrary.Models
         public int save()
         {
             if (this.ID == 0)
-            {
+            {                                                                               //Yeni salon eklememizi sağlar.
                 this.ID = DAL.insertSql("insert into Saloon(SaloonName,SaloonQuota,SaloonAddress) values (@SaloonName,@SaloonQuata,@SaloonAddress)", new List<MySqlParameter>()
                     {
                         new MySqlParameter("@SaloonName",this.SaloonName),
@@ -28,7 +28,7 @@ namespace ClassLibrary.Models
                     });
             }
             else
-            {
+            {                                                                               //Var olan salonun güncellememizi sağlar.
                 DAL.insertSql("update Saloon set SaloonName = @SaloonName, SaloonQuota=@SaloonQuata, SaloonAddress=@SaloonAddress where ID = @ID",
                    new List<MySqlParameter>()
                    {
@@ -44,13 +44,13 @@ namespace ClassLibrary.Models
 
         public void Delete()
         {
-            DAL.insertSql("update Saloon set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
+            DAL.insertSql("update Saloon set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));  // Var olan salonu silmemizi sağlar.
         }
 
         public List<Saloon> getSaloons(string filter)
         {
 
-            List<Saloon> result = new List<Saloon>();
+            List<Saloon> result = new List<Saloon>();                                           //Salonları liistelememizi sağlar.
 
             DataTable data = DAL.readData("select * from Saloon where IsDeleted=0 and SaloonName Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -73,7 +73,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getSaloon()
+        public void getSaloon()                                                 //Tek bir salonu listelememizi sağlar.
         {
             DataTable data = DAL.readData("select * from Saloon where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.SaloonName = data.Rows[0]["SaloonName"].ToString();

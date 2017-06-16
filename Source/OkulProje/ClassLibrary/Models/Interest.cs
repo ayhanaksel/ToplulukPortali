@@ -17,7 +17,7 @@ namespace ClassLibrary.Models
 
         public int save()
         {
-            if (this.ID == 0)
+            if (this.ID == 0)                                                        //ilgi alanları ekleme ve güncelleme kodları.
             {                             
                 this.ID = DAL.insertSql("insert into Interest(InterestName) values (@InterestName)", new MySqlParameter("@InterestName", this.InterestName));
             }
@@ -34,13 +34,13 @@ namespace ClassLibrary.Models
             return this.ID;
         }
 
-        public void Delete()
+        public void Delete()                                                    //ilgi alanları silme kodları.
         {
             DAL.insertSql("update Interest set IsDeleted = 1 where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
-        public List<Interest> getInterests(string filter) 
-        {
+        public List<Interest> getInterests(string filter)
+        {                                                                          //İlgi alanları listeleme kodları.
 
             List<Interest> Interests = new List<Interest>();
 
@@ -63,7 +63,7 @@ namespace ClassLibrary.Models
         }
 
         public void getInterest()
-        {
+        {                                                                           //Tek bir ilgi alanı bilgilerini getirme kodları
 
             DataTable data = DAL.readData("select * from Interest where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.InterestName = data.Rows[0]["InterestName"].ToString();

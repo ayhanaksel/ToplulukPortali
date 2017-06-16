@@ -57,7 +57,7 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserTitleID",this.UserTitle.ID),
                         new MySqlParameter("@UserName",this.UserName),
                         new MySqlParameter("@UserSurname",this.UserSurname),
-                        new MySqlParameter("@Email",this.Email),
+                        new MySqlParameter("@Email",this.Email),                                    //Bu kod yeni kullanıcı eklemek için kullanıyor.
                         new MySqlParameter("@UserNo",this.UserNo),
                         new MySqlParameter("@UserAdress",this.UserAdress),
                         new MySqlParameter("@Password",this.Password),
@@ -92,7 +92,7 @@ namespace ClassLibrary.Models
                         new MySqlParameter("@UserTitleID",this.UserTitle.ID),
                         new MySqlParameter("@UserName",this.UserName),
                         new MySqlParameter("@UserSurname",this.UserSurname),
-                        new MySqlParameter("@Email",this.Email),
+                        new MySqlParameter("@Email",this.Email),                         //Kullanıcıyı güncellemek için kullanılır.
                         new MySqlParameter("@UserNo",this.UserNo),
                         new MySqlParameter("@UserAdress",this.UserAdress),
                         new MySqlParameter("@Password",this.Password),
@@ -110,7 +110,7 @@ namespace ClassLibrary.Models
              foreach(UserInterest u in this.UserInterests)
              {
                 if (u.User == null)
-                {
+                {                                                                   //Bir kullanıcnın birden fazla ilgi alanı seçmesini sağlıyor.
                     u.User = new User();
                 }
 
@@ -125,17 +125,17 @@ namespace ClassLibrary.Models
 
         private void ClearAllInterests()
         {
-            DAL.insertSql("Update UserInterest set IsDeleted = 1 Where UserId = @UserID", new MySqlParameter("@UserID", this.ID));
+            DAL.insertSql("Update UserInterest set IsDeleted = 1 Where UserId = @UserID", new MySqlParameter("@UserID", this.ID));      //İlgi alanlarını sıfırlıyor.
         }
 
         public int Delete()
         {
-            DAL.insertSql("update User set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
+            DAL.insertSql("update User set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));          //Kullanıcı silmek için kullanılır.
             ClearAllInterests();
             return this.ID;
         }
 
-        public User LoginControl()
+        public User LoginControl()               //Böyle bir kullanıcı varmı yok mu bunu kontolu yapılır.Eğer kullanıcı varsa yönetici mi normal üye mi bunu kontrolu yapılır.
         {
 
             DataTable data = DAL.readData("select * from User where IsDeleted = 0 and Email=@Email and Password=@Password",new List<MySqlParameter> {
@@ -187,7 +187,7 @@ namespace ClassLibrary.Models
             //
             ePosta.To.Add(this.Email);      
             //
-            ePosta.Subject = "KONU";
+            ePosta.Subject = "KONU";                                            //Yeni kayıt olunduğunda mail gönderen kodlar.
             //
             ePosta.Body = "Activation Code = "+ ActivationCode;
             //
@@ -230,7 +230,7 @@ namespace ClassLibrary.Models
 
                 if (this.ActivationCode == data.Rows[0]["ActivationCode"].ToString())
                 {
-                   this.UserState = 1;
+                   this.UserState = 1;                                              //Üyenin durumunu deiştiren kodlar.(beklemede-pasif-aktif)
                 }
                 else
                 {

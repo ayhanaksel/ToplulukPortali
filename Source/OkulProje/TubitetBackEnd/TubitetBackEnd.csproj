@@ -118,11 +118,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
+    <Content Include="ActivityList.aspx" />
     <Content Include="Content\logo.png" />
-    <Content Include="EventList.aspx" />
->>>>>>> 9e4c50c2230688643e5460f06ddc9506516a2a3d
     <Content Include="EventTypeList.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="InterestList.aspx" />
@@ -167,6 +164,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityList.aspx.cs">
+      <DependentUpon>ActivityList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivityList.aspx.designer.cs">
+      <DependentUpon>ActivityList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EventTypeList.aspx.cs">
       <DependentUpon>EventTypeList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

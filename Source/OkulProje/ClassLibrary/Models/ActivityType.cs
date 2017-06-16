@@ -13,14 +13,14 @@ namespace ClassLibrary.Models
         public int ID { get; set; }
         public string TypeName { get; set; }
         public Boolean IsDeleted { get; set; }
-        public int save()
+        public int save()                                           //Yeni bir etkinlik türü oluşturmamızı sağlayan kodlar.
         {
             if (this.ID == 0)
             {
                 this.ID = DAL.insertSql("insert into ActivityType(TypeName) values (@TypeName)", new MySqlParameter("@TypeName", this.TypeName));
             }
             else
-            {
+            {                                                       //Var olan etkinlik türünü güncellememizi sağlayan kodlar.
                 DAL.insertSql("update ActivityType set TypeName = @TypeName where ID = @ID",
                     new List<MySqlParameter>()
                     {
@@ -32,7 +32,7 @@ namespace ClassLibrary.Models
             return this.ID;
         }
 
-        public void Delete()
+        public void Delete()                                            //Var olan etknlik türünü silmemizi sağlayan kodlar.
         {
             DAL.insertSql("update ActivityType set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
@@ -40,7 +40,7 @@ namespace ClassLibrary.Models
         public List<ActivityType> getActivities(string filter)
         {
 
-            List<ActivityType> result = new List<ActivityType>();
+            List<ActivityType> result = new List<ActivityType>();                           //Etkinlik türlerini liistelememizi sağlayan kodlar.
 
             DataTable data = DAL.readData("select * from ActivityType where IsDeleted=0 and TypeName Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -59,7 +59,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getActivity()
+        public void getActivity()                                   //Tek bir etkinlik türünü listelememizi sağlayan kodlar.
         {
             DataTable data = DAL.readData("select * from ActivityType where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.TypeName = data.Rows[0]["TypeName"].ToString();

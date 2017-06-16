@@ -28,12 +28,15 @@ namespace TubitetBackEnd
 
         protected void btnList_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
+            listeleFonsiyonu();
+        }
 
+        private void listeleFonsiyonu()
+        {
             List<Interest> interests = new Interest().getInterests(txtFilter.Text);
             Store store = grdList.GetStore();
             store.DataSource = interests;
             store.DataBind();
-
         }
 
         protected void btnSave_DirectClick(object sender, Ext.Net.DirectEventArgs e)
@@ -60,6 +63,7 @@ namespace TubitetBackEnd
             if (control > 0)
             {
                 X.Msg.Alert("Uyarı", "İlgi alanı başarıyla kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listeleFonsiyonu();
                 ResetForm();
             }
             else

@@ -17,8 +17,8 @@ namespace ClassLibrary.Models
         public int save()
         {
             if(this.ID == 0)
-            {
-               this.ID = DAL.insertSql("insert into Faculty(FacultyName) values (@FacultyName)", new MySqlParameter("@FacultyName", this.FacultyName));
+            {                                                                   //Yeni fakulte ekleme kodları.
+                this.ID = DAL.insertSql("insert into Faculty(FacultyName) values (@FacultyName)", new MySqlParameter("@FacultyName", this.FacultyName));
             }
             else
             {
@@ -34,7 +34,7 @@ namespace ClassLibrary.Models
         }
 
         public void Delete()
-        {
+        {                                                                   //Fakulte silme kodları.
             DAL.insertSql("update Faculty set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
@@ -45,9 +45,9 @@ namespace ClassLibrary.Models
 
             DataTable data = DAL.readData("select * from Faculty where IsDeleted=0 and FacultyName Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
-            
+                                                                               //Fakulteleri listeleme kodları.
 
-            foreach(DataRow dr in data.Rows)
+            foreach (DataRow dr in data.Rows)
             {
                
                 result.Add(
@@ -63,7 +63,7 @@ namespace ClassLibrary.Models
         }
 
         public void getFaculty()
-        {
+        {                                                                                   //Bir fakulte bilgilerini getirme kodları.
             DataTable data = DAL.readData("select * from Faculty where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.FacultyName = data.Rows[0]["FacultyName"].ToString();
             this.IsDeleted = Convert.ToBoolean(data.Rows[0]["IsDeleted"].ToString());

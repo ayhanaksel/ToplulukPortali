@@ -51,7 +51,11 @@ III. REVISIONS + BREAKING CHANGES
 
 See CHANGELOG.txt and BREAKING_CHANGES.txt files included in the download package, or view online:
 
-http://examples.ext.net/#/Getting_Started/Introduction/README/
+http://
+
+
+
+.ext.net/#/Getting_Started/Introduction/README/
 
 http://examples.ext.net/#/Getting_Started/Introduction/BREAKING_CHANGES/
 

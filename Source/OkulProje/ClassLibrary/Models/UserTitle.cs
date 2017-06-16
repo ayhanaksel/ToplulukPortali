@@ -18,11 +18,11 @@ namespace ClassLibrary.Models
         public int save()
         {
             if (this.ID == 0)
-            {
+            {                                                           //Kullanıcı ünvanı ekleme kodları.
                 this.ID = DAL.insertSql("insert into UserTitle(Title) values (@UserTitleName)", new MySqlParameter("@UserTitleName", this.UserTitleName));
             }
             else
-            {
+            {                                                           //Kullanıcı ünvanı güncelleme kodarı.
                 this.ID = DAL.insertSql("update UserTitle set Title = @UserTitleName where ID=@ID",
                     new List<MySqlParameter>()
                     {
@@ -35,14 +35,14 @@ namespace ClassLibrary.Models
         }
 
         public void Delete()
-        {
+        {                                                                   //Kullanıcı ünvanı silme kodları.
             DAL.insertSql("update UserTitle set IsDeleted = 1 where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
 
 
         public List<UserTitle> getUserTitles(string filter)
-        {
+        {                                                                       //Kullanıcı ünvanları listeleme kodları.
 
             List<UserTitle> UserTitles= new List<UserTitle>();
 
@@ -65,7 +65,7 @@ namespace ClassLibrary.Models
         }
 
         public void getUserTitle()
-        {
+        {                                                                           //Tek bir ünvanın bilgilerinin getirilmesi.
 
             DataTable data = DAL.readData("select * from UserTitle where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.UserTitleName = data.Rows[0]["Title"].ToString();

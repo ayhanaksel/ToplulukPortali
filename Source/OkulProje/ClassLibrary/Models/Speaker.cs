@@ -18,7 +18,7 @@ namespace ClassLibrary.Models
         public string SpeakerPhoto { get; set; }
         public Boolean IsDeleted { get; set; }
 
-        public int save()
+        public int save()                           //Yeni konuşmacı eklememizi sağlayan kodlar.
         {
             if (this.ID == 0)
             {
@@ -32,7 +32,7 @@ namespace ClassLibrary.Models
                     });
             }
             else
-            {
+            {                                                       //Var olan konuşmacıyı güncellememizi sağlayan kodlar.
                 DAL.insertSql("update Speakers set SpeakersName = @SpeakerName, SpeakerPhoto=@SpeakerPhoto, SpeakerCV=@SpeakerCV, SpeakerWorksFor=@SpeakerWorksFor, SpeakerSpeakAbout=@SpeakerSpeakAbout where ID = @ID",
                     new List<MySqlParameter>()
                     {
@@ -48,13 +48,13 @@ namespace ClassLibrary.Models
             return this.ID;
         }
 
-        public void Delete()
+        public void Delete()                                            //Var olan konuşmacıyı silmemizi sağlar.
         {
             DAL.insertSql("update Speakers set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
 
         public List<Speaker> getSpeakers(string filter)
-        {
+        {                                               // Konuşmacıları listelememizi sağlayan kodlar.
 
             List<Speaker> result = new List<Speaker>();
 
@@ -81,7 +81,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getSpeaker()
+        public void getSpeaker()                                        //Tek bir kullanıcıyı listelememiz için kullanılan kodlar.
         {
             DataTable data = DAL.readData("select * from Speakers where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.SpeakerName = data.Rows[0]["SpeakersName"].ToString();

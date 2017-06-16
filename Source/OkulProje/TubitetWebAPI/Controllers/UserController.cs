@@ -16,7 +16,7 @@ namespace TubitetWebAPI.Controllers
         [HttpPost]
         public int saveNewUser(User user)
         {
-
+                                                                             //Yeni kullanıcı ekleyen api.
             int eklenenuser = user.save();
 
             return eklenenuser;
@@ -28,7 +28,7 @@ namespace TubitetWebAPI.Controllers
         public string LoginControl(User user)
         {
             User u = new User();
-            u = user.LoginControl();
+            u = user.LoginControl();                                            //Login kontrolu yapan api.
             return JsonConvert.SerializeObject(u);
         }
 
@@ -36,13 +36,13 @@ namespace TubitetWebAPI.Controllers
         [HttpPost]
         public int ChangedState(User user) //user = activationcode + userıd + istene userstate
         {
-            return user.ChangedState();
+            return user.ChangedState();                                         //Kullanıcının durumunu değiştiren api.
         }
 
         [HttpPost]
         public int Delete(User user)
         {    
-            return user.Delete();
+            return user.Delete();                                               //Kullanıcı silen api.
         }
 
     }

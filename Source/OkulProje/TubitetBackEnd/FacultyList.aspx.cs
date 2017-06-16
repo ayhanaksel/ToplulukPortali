@@ -15,7 +15,7 @@ namespace TubitetBackEnd
         {
 
             if(Request.Cookies["kullanici"] == null)
-            {
+            {                                                                        //Kullanıcı login oldumu onun kontrolunu yapar(güvenlik amaclı)
                 Response.Redirect("Login.aspx");
             }
 
@@ -35,7 +35,7 @@ namespace TubitetBackEnd
             }
 
             Faculty f = new Faculty()
-            {
+            {                                                           //Yeni fakulte ekleme kodları.
                 ID = ID,
                 FacultyName = txtFacultyName.Text
             };
@@ -45,6 +45,7 @@ namespace TubitetBackEnd
             if(control > 0)
             {
                 X.Msg.Alert("Uyarı", "Fakülte kartı kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listeleFonksiyonu();
                 ResetForm();
             }
             else
@@ -56,7 +57,7 @@ namespace TubitetBackEnd
 
         protected void btnClose_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
-            wndNew.Close();
+            wndNew.Close();                                                     //Küçük ekleme ekranını kapatır.
         }
 
         private void ResetForm()
@@ -73,6 +74,11 @@ namespace TubitetBackEnd
         }
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
+        {
+            listeleFonksiyonu();
+        }
+
+        private void listeleFonksiyonu()
         {
             List<Faculty> faculties = new Faculty().getFaculties(txtFilter.Text);
             Store store = grdList.GetStore();

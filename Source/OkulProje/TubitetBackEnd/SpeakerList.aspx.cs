@@ -13,24 +13,18 @@ namespace TubitetBackEnd
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            
-=======
+            Interest interest = new Interest();
+            store.DataSource = interest.getInterests("");
+            store.DataBind();
+
             if (Request.Cookies["kullanici"] == null)
             {
                 Response.Redirect("Login.aspx");
             }
-            else
-            {
-                Interest interest = new Interest();
-                store.DataSource = interest.getInterests("");
-                store.DataBind();
-            }
->>>>>>> 9e4c50c2230688643e5460f06ddc9506516a2a3d
         }
         protected void btnPhotoSave_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
-            if (this.attachPhoto.HasFile)
+            if (this.attachPhoto.HasFile)               //Eğer Fotoğraf seçilmiş ise fotoğrafın yolunu server'a kaydeder.
             {
                 string photoPath = Server.MapPath("~/SpeakerPhoto/" + this.attachPhoto.PostedFile.FileName);
                 this.attachPhoto.PostedFile.SaveAs(photoPath);
@@ -38,7 +32,7 @@ namespace TubitetBackEnd
                 Image1.ImageUrl = "SpeakerPhoto/"+ this.attachPhoto.PostedFile.FileName;    
             }
             else
-            {
+            {                                                       //Eğer seçilmemişse kaydetme hatası mesajı kullanıcıya gösterilir.
                 X.Msg.Alert("Uyarı", "Resim Kaydedilemedi").Show();
             }
         }
@@ -46,14 +40,14 @@ namespace TubitetBackEnd
         protected void btnSave_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
 
-            if (this.attachCV.HasFile)
+            if (this.attachCV.HasFile)                              //Eğer CV seçilmişse seçilen dosyanın yolunu server'a kaydeder.
             {
                 string cvPath = Server.MapPath("~/SpeakersCV/" + this.attachCV.PostedFile.FileName);
                 this.attachCV.PostedFile.SaveAs(cvPath);
                 X.Msg.Alert("Başarılı", "CV Kaydedildi.").Show();
             }
             else
-            {
+            {                                                       //Eğer CV seçilmemişse kaydetme hatası mesajı kullanıcıya gösterilir.
                 X.Msg.Alert("Uyarı", "CV Kaydedilemedi.").Show();
             }
 
@@ -66,22 +60,41 @@ namespace TubitetBackEnd
             {
 
             }
-
-            Speaker f = new Speaker()
+            int control = 0;
+            //Update işleminde id alındı ve resim yolu eklendi
+            if (ID > 0)//Eğer id 0 dan büyükse update işlemi yapılsın
             {
-                ID = ID,
-                SpeakerName = txtSpeakerName.Text,
-                SpeakerPhoto = this.attachPhoto.PostedFile.FileName,
-                SpeakerCV = this.attachCV.PostedFile.FileName,
-                SpeakerWorksFor = txtSpeakerWorksFor.Text,
-                SpeakerSpeakAbout = cmbxInterest.SelectedItem.Text
-            };
-
-            int control = f.save();
+                if (attachPhoto.FileName != "") UpdateResimYolu = attachPhoto.FileName;
+                if (attachCV.FileName != "") UpdateCVYolu = attachCV.FileName;
+                Speaker f = new Speaker()
+                {
+                    ID = ID,
+                    SpeakerName = txtSpeakerName.Text,
+                    SpeakerPhoto = UpdateResimYolu,
+                    SpeakerCV = UpdateCVYolu,
+                    SpeakerWorksFor = txtSpeakerWorksFor.Text,
+                    SpeakerSpeakAbout = cmbxInterest.Text
+                };
+                control = f.save();
+            }
+            else // değilse insert işlemi yapılsın
+            {
+                Speaker f = new Speaker()
+                {
+                    ID = ID,
+                    SpeakerName = txtSpeakerName.Text,
+                    SpeakerPhoto = this.attachPhoto.PostedFile.FileName,
+                    SpeakerCV = this.attachCV.PostedFile.FileName,
+                    SpeakerWorksFor = txtSpeakerWorksFor.Text,
+                    SpeakerSpeakAbout = cmbxInterest.SelectedItem.Text
+                };
+                control = f.save();
+            }
 
             if (control > 0)
             {
                 X.Msg.Alert("Uyarı", "Konuşmacı kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listelemeFonsiyonu();
                 ResetForm();
             }
             else
@@ -118,6 +131,11 @@ namespace TubitetBackEnd
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
         {
+            listelemeFonsiyonu();
+        }
+
+        private void listelemeFonsiyonu()
+        {
             List<Speaker> speakers = new Speaker().getSpeakers(txtFilter.Text);
             Store store = grdList.GetStore();
             store.DataSource = speakers;
@@ -140,7 +158,8 @@ namespace TubitetBackEnd
                     break;
             }
         }
-
+        private static String UpdateResimYolu = String.Empty;
+        private static String UpdateCVYolu = String.Empty;
         private void Update(int id)
         {
             Speaker f = new Speaker() { ID = id };
@@ -149,6 +168,9 @@ namespace TubitetBackEnd
             txtSpeakerName.Text = f.SpeakerName;
             cmbxInterest.Text = f.SpeakerSpeakAbout;
             Image1.ImageUrl = "SpeakerPhoto/"+f.SpeakerPhoto;
+            UpdateResimYolu = f.SpeakerPhoto;
+            attachCV.Text = f.SpeakerCV;
+            UpdateCVYolu = f.SpeakerCV;
             txtSpeakerWorksFor.Text = f.SpeakerWorksFor;
             wndNew.Show();
 

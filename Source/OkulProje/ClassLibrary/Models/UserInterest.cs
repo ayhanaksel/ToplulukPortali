@@ -19,7 +19,7 @@ namespace ClassLibrary.Models
         {
 
             this.ID = DAL.insertSql("insert into UserInterest(UserID,InterestID) values(@UserID,@InterestID)", new List<MySqlParameter>() {
-
+                                                                                    //ilgi alanı ve kullanıcı birleştirme kodları.
                 new MySqlParameter("@UserID",this.User.ID),
                 new MySqlParameter("@InterestID",this.Interest.ID)
 

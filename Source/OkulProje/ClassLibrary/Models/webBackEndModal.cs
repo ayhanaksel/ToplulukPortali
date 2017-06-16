@@ -19,7 +19,7 @@ namespace ClassLibrary.Models
         {
             DAL.insertSql("update WebBackEnd set " + this.key + " = @value where id = 1", new List<MySqlParameter>()
             {
-                //new MySqlParameter("@key",this.key),
+                //new MySqlParameter("@key",this.key),                          //web yonetimin tek bir bölümün değiştirilmesi kodu.
                 new MySqlParameter("@value",this.value)
             });
 
@@ -33,7 +33,7 @@ namespace ClassLibrary.Models
         // parametre olarak gönderilecek
 
         public void getValue()
-        {
+        {                                                                           //tek bir bölümün verilerini getirme kodu.
             DataTable data = DAL.readData("select * from WebBackEnd where ID = 1", new MySqlParameter("@key", this.key));
             this.value = data.Rows[0][this.key].ToString();
         }

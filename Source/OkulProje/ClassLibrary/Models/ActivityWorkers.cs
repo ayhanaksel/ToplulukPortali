@@ -13,7 +13,7 @@ namespace ClassLibrary.Models
         public Worker Worker { get; set; }
         public Boolean IsDeleted { get; set; }
 
-        public int save()
+        public int save()                                           //Yeni görevli eklemek için kullanılan kodlar.
         {
             if (this.ID == 0)
             {
@@ -24,7 +24,7 @@ namespace ClassLibrary.Models
                     });
             }
             else
-            {
+            {                                                               //Var olan görevliyi güncelleme kodları.
                 DAL.insertSql("update ActivityWorkers set ActivityID = @ActivityID, WorkerID = @WorkerID where ID = @ID",
                     new List<MySqlParameter>()
                     {
@@ -36,7 +36,7 @@ namespace ClassLibrary.Models
             return this.ID;
         }
 
-        public void Delete()
+        public void Delete()                                        //Var olan görevliyi silmemizi sağlayan kodlar.
         {
             DAL.insertSql("update ActivityWorkers set IsDeleted=1 Where ID=@ID", new MySqlParameter("@ID", this.ID));
         }
@@ -44,7 +44,7 @@ namespace ClassLibrary.Models
         public List<ActivityWorkers> getActivityWorkers(string filter)
         {
 
-            List<ActivityWorkers> result = new List<ActivityWorkers>();
+            List<ActivityWorkers> result = new List<ActivityWorkers>();                     //Görevlileri listelememizi sağlayan kodlar.
 
             DataTable data = DAL.readData("select * from ActivityWorkers where IsDeleted=0 and ActivityID Like @filter", new MySqlParameter("@filter", '%' + filter + '%'));
 
@@ -66,7 +66,7 @@ namespace ClassLibrary.Models
             return result;
         }
 
-        public void getActivityWorker()
+        public void getActivityWorker()                                                                     //Tek bir görevliyi listelememizi sağlayan kodlar.
         {
             DataTable data = DAL.readData("select * from Activities where ID=@ID", new MySqlParameter("@ID", this.ID));
             this.Activity.ID = Convert.ToInt32(data.Rows[0]["ActivityID"].ToString());

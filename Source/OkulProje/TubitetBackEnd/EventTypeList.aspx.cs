@@ -43,6 +43,7 @@ namespace TubitetBackEnd
             if (control > 0)
             {
                 X.Msg.Alert("Uyarı", "Etkinlik türü başarıyla kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listeleFonksiyonu();
                 ResetForm();
             }
             else
@@ -71,6 +72,11 @@ namespace TubitetBackEnd
         }
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
+        {
+            listeleFonksiyonu();
+        }
+
+        private void listeleFonksiyonu()
         {
             List<ActivityType> activities = new ActivityType().getActivities(txtFilter.Text);
             Store store = grdList.GetStore();

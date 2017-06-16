@@ -15,19 +15,19 @@ namespace TubitetWebAPI.Controllers
         [HttpPost]
         public int SaveNewUserTitle(UserTitle userTitle)
         {
-            return userTitle.save();
+            return userTitle.save();                                             //Yeni kullanıcı ünvanı ekleyen api.
         }
 
         public string getAllUserTitle()
         {
-            return JsonConvert.SerializeObject(new UserTitle().getUserTitles(""));
+            return JsonConvert.SerializeObject(new UserTitle().getUserTitles(""));                          //Tüm ünvanları getiren api.
         }
 
         [HttpPost]
-        public string getUserTitle(UserTitle u) //  SOOOOOORRRRR
+        public string getUserTitle(UserTitle u)
         {
 
-            UserTitle usertitle = new UserTitle()
+            UserTitle usertitle = new UserTitle()                               //Tek ünvan bilgilerini kodlar.
             {
                 ID = u.ID
             };

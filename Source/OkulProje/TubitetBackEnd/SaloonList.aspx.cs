@@ -42,6 +42,7 @@ namespace TubitetBackEnd
             if (control > 0)
             {
                 X.Msg.Alert("Uyarı", "Salon başarıyla kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listeleFonksiyonu();
                 ResetForm();
             }
             else
@@ -72,6 +73,11 @@ namespace TubitetBackEnd
         }
 
         protected void btnList_DirectClick(object sender, DirectEventArgs e)
+        {
+            listeleFonksiyonu();
+        }
+
+        private void listeleFonksiyonu()
         {
             List<Saloon> salons = new Saloon().getSaloons(txtFilter.Text);
             Store store = grdList.GetStore();

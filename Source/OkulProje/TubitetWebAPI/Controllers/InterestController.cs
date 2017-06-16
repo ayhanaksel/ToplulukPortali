@@ -15,18 +15,18 @@ namespace TubitetWebAPI.Controllers
         [HttpPost]
         public int saveNewInterest(Interest interest)
         {
-            return interest.save();
+            return interest.save();                             //Yeni ilgi alanı ekleyen api.
         }
 
         public string getAllInterest()
-        {
-           
+        {                                                           //Tüm ilgi alanlarını getiren api.
+
             return JsonConvert.SerializeObject(new Interest().getInterests(""));
 
         }
 
         [HttpPost]
-        public string getInterest(Interest i)
+        public string getInterest(Interest i)                                       //Tek bir ilgi alanı getiren api.
         {
             Interest interest = new Interest()
             {

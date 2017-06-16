@@ -16,8 +16,8 @@ namespace TubitetWebAPI.Controllers
         [HttpPost]
          public int SaveNewFaculty(Faculty faculty)
         {
-            var model = new Faculty();
-            if(faculty != null) { 
+            var model = new Faculty();                                          //Yeni fakulte ekleme apisi.
+            if (faculty != null) { 
             model = faculty;
                 model.save();
                 return 0;
@@ -25,13 +25,13 @@ namespace TubitetWebAPI.Controllers
             return 0;
         }
 
-        public string getAllFaculties()
+        public string getAllFaculties()                                     //Butun fakulteleri getiren api.
         {
             return JsonConvert.SerializeObject(new Faculty().getFaculties(""));
         }
 
         [HttpPost]
-        public string getFaculty(Faculty f) //  SOOOOOORRRRR
+        public string getFaculty(Faculty f)                                 // bir tane fakulte bilgilerini getiren api.
         {
 
             Faculty faculty = new Faculty()

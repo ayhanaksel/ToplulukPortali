@@ -2,12 +2,13 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
   <siteMapNode title="Examples">
    
-    <siteMapNode title="Anasayfa" description="Anasayfa" url="Index.aspx/"></siteMapNode>
+    <siteMapNode title="Anasayfa" description="Anasayfa"  url="Index.aspx/" ></siteMapNode>
     <siteMapNode title="Fakülte Yönetimi" description="Fakülte Yönetimi" url="FacultyList.aspx/"></siteMapNode>
     <siteMapNode title="İlgi Alanları Yönetimi" description="İlgi Alanları Yönetimi" url="InterestList.aspx/"></siteMapNode>
     <siteMapNode title="Ünvan Yönetimi" description="Ünvan Yönetimi" url="UserTitleList.aspx/"></siteMapNode>
     <siteMapNode title="Konuşmacı Yönetimi" description="Konuşmacı Yönetimi" url="SpeakerList.aspx/"></siteMapNode>
     <siteMapNode title="Web Sitesi Yönetimi" description="Web Sitesi Yönetimi" url="webBackEnd.aspx/"></siteMapNode>
+    <siteMapNode title="Etkinlik Yönetimi" description="Etkinlik Yönetimi" url="ActivityList.aspx/"></siteMapNode>
  
   </siteMapNode>
 </siteMap>

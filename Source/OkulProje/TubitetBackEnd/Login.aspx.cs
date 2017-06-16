@@ -30,7 +30,7 @@ namespace TubitetBackEnd
                 
                 if(user.UserTitle.ID != 1)
                 {
-                    wndYetkisiz.Show();
+                    wndYetkisiz.Show();                                             //Kullanıcı varmı yok mu kontrolu yapan ve Gerekli mesajları gösteren kodlar.
                 }
                 else
                 {
@@ -38,7 +38,7 @@ namespace TubitetBackEnd
                     HttpCookie userCookie = new HttpCookie("kullanici");
 
                     userCookie["ad"] = user.UserName;
-                    userCookie["soyad"] = user.UserSurName;
+                    userCookie["soyad"] = user.UserSurname;
                     userCookie.Expires = DateTime.Now.AddDays(1);
                     Response.Cookies.Add(userCookie);
 

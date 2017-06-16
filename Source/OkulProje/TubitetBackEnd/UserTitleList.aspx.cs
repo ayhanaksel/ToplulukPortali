@@ -27,6 +27,11 @@ namespace TubitetBackEnd
 
         protected void btnFind_DirectClick(object sender, Ext.Net.DirectEventArgs e)
         {
+            listeleFonksiyonu();
+        }
+
+        private void listeleFonksiyonu()
+        {
             List<UserTitle> UserTitles = new UserTitle().getUserTitles(txtFilter.Text);
             Store store = grdList.GetStore();
             store.DataSource = UserTitles;
@@ -52,6 +57,7 @@ namespace TubitetBackEnd
             if (control > 0)
             {
                 X.Msg.Alert("Uyarı", "Ünvan kayıt edilmiştir. Yeni bir kayıt daha yapabilirsiniz.").Show();
+                listeleFonksiyonu();
                 ResetForm();
             }
             else
